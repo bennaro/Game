@@ -11,6 +11,13 @@ namespace Game
             int screenHeight = 600;
             Raylib.InitWindow(screenWidth, screenHeight, "Raylib C# Example");
 
+            PlayerComponent playerComponent = new PlayerComponent("./Assets/link-sheet.png",32,32);
+
+            Entity entity = new Entity();
+
+
+                entity.Attach("player", playerComponent);
+
             // Set the target FPS (optional)
             Raylib.SetTargetFPS(60);
 
@@ -25,6 +32,11 @@ namespace Game
 
                 // Add any drawing logic here
                 Raylib.DrawText("Hello, Raylib!", 200, 200, 20, Color.Black);
+
+
+
+                entity.Draw();
+
 
                 // End drawing
                 Raylib.EndDrawing();

@@ -1,0 +1,15 @@
+C:\Users\Faisa\Documents\Game\bin\Debug\net8.0\Game.exe
+C:\Users\Faisa\Documents\Game\bin\Debug\net8.0\Game.deps.json
+C:\Users\Faisa\Documents\Game\bin\Debug\net8.0\Game.runtimeconfig.json
+C:\Users\Faisa\Documents\Game\bin\Debug\net8.0\Game.dll
+C:\Users\Faisa\Documents\Game\bin\Debug\net8.0\Game.pdb
+C:\Users\Faisa\Documents\Game\obj\Debug\net8.0\Game.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Faisa\Documents\Game\obj\Debug\net8.0\Game.AssemblyInfoInputs.cache
+C:\Users\Faisa\Documents\Game\obj\Debug\net8.0\Game.AssemblyInfo.cs
+C:\Users\Faisa\Documents\Game\obj\Debug\net8.0\Game.csproj.CoreCompileInputs.cache
+C:\Users\Faisa\Documents\Game\obj\Debug\net8.0\Game.sourcelink.json
+C:\Users\Faisa\Documents\Game\obj\Debug\net8.0\Game.dll
+C:\Users\Faisa\Documents\Game\obj\Debug\net8.0\refint\Game.dll
+C:\Users\Faisa\Documents\Game\obj\Debug\net8.0\Game.pdb
+C:\Users\Faisa\Documents\Game\obj\Debug\net8.0\Game.genruntimeconfig.cache
+C:\Users\Faisa\Documents\Game\obj\Debug\net8.0\ref\Game.dll

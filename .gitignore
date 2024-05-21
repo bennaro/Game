@@ -1,0 +1,70 @@
+# .gitignore for a C# Raylib project
+
+# Ignore Visual Studio temporary files, build results, and
+# .NET Core project files.
+
+## Ignore build outputs
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.nuget/
+
+## Ignore user-specific files
+.vscode/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.userprefs
+
+## Ignore logs
+*.log
+
+## Ignore Rider files
+.idea/
+*.sln.iml
+
+## Ignore coverage tool directories
+.coverage/
+.coverlet/
+
+# Ignore dependency directories
+packages/
+.nuget/
+
+# Ignore configuration files
+appsettings.json
+appsettings.Development.json
+
+# Ignore crash reports
+hs_err_pid*
+
+# Ignore the Raylib build directory if any
+Raylib/
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore other OS-specific files
+Thumbs.db
+ehthumbs.db
+
+# Ignore C# specific files
+*.csproj.user
+*.csproj.DotSettings
+
+# Ignore build directories
+build/
+dist/
+
+# Ignore publish output
+publish/
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore lock files
+project.lock.json

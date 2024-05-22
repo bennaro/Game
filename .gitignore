@@ -295,3 +295,11 @@ AppPackages/
 #####
 # End of core ignore list, below put you custom 'per project' settings (patterns or path)
 #####
+obj/Game.csproj.nuget.dgspec.json
+obj/Game.csproj.nuget.g.props
+obj/project.assets.json
+obj/project.nuget.cache
+obj/Debug/net8.0/Game.AssemblyInfo.cs
+obj/Debug/net8.0/Game.AssemblyInfoInputs.cache
+obj/Debug/net8.0/Game.assets.cache
+obj/Debug/net8.0/Game.GeneratedMSBuildEditorConfig.editorconfig

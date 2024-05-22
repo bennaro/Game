@@ -48,6 +48,19 @@
         "runtime": {
           "lib/netcoreapp2.0/_._": {}
         }
+      },
+      "TiledCS/3.3.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/TiledCS.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/TiledCS.dll": {
+            "related": ".xml"
+          }
+        }
       }
     }
   },
@@ -120,32 +133,48 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "TiledCS/3.3.3": {
+      "sha512": "YoB5tE8FoBNp9zUKCZVnnr+qKJnO54v1ke8yyx4JoIGbI4AaIrqqJwFGL93j9J/r3Po9N2YYytoUvr/rswkurA==",
+      "type": "package",
+      "path": "tiledcs/3.3.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/TiledCS.dll",
+        "lib/netstandard2.0/TiledCS.xml",
+        "tiledcs.3.3.3.nupkg.sha512",
+        "tiledcs.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Raylib-cs >= 6.0.0"
+      "Raylib-cs >= 6.0.0",
+      "tiledcs >= 3.3.3"
     ]
   },
   "packageFolders": {
-    "/Users/benjaminnaero/.nuget/packages/": {}
+    "C:\\Users\\Faisa\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/benjaminnaero/Developer/Game/Game.csproj",
+      "projectUniqueName": "C:\\Users\\Faisa\\Documents\\Game\\Game.csproj",
       "projectName": "Game",
-      "projectPath": "/Users/benjaminnaero/Developer/Game/Game.csproj",
-      "packagesPath": "/Users/benjaminnaero/.nuget/packages/",
-      "outputPath": "/Users/benjaminnaero/Developer/Game/obj/",
+      "projectPath": "C:\\Users\\Faisa\\Documents\\Game\\Game.csproj",
+      "packagesPath": "C:\\Users\\Faisa\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Faisa\\Documents\\Game\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/benjaminnaero/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Faisa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -172,6 +201,10 @@
           "Raylib-cs": {
             "target": "Package",
             "version": "[6.0.0, )"
+          },
+          "tiledcs": {
+            "target": "Package",
+            "version": "[3.3.3, )"
           }
         },
         "imports": [
@@ -190,7 +223,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

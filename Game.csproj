@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <PackageReference Include="Raylib-cs" Version="6.0.0" />
+    <PackageReference Include="tiledcs" Version="3.3.3" />
   </ItemGroup>
 
 </Project>

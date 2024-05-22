@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v8.0": {
       "Game/1.0.0": {
         "dependencies": {
-          "Raylib-cs": "6.0.0"
+          "Raylib-cs": "6.0.0",
+          "TiledCS": "3.3.3"
         },
         "runtime": {
           "Game.dll": {}
@@ -52,7 +53,15 @@
           }
         }
       },
-      "System.Numerics.Vectors/4.5.0": {}
+      "System.Numerics.Vectors/4.5.0": {},
+      "TiledCS/3.3.3": {
+        "runtime": {
+          "lib/netstandard2.0/TiledCS.dll": {
+            "assemblyVersion": "3.3.3.0",
+            "fileVersion": "3.3.3.0"
+          }
+        }
+      }
     }
   },
   "libraries": {
@@ -74,6 +83,13 @@
       "sha512": "sha512-QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
       "path": "system.numerics.vectors/4.5.0",
       "hashPath": "system.numerics.vectors.4.5.0.nupkg.sha512"
+    },
+    "TiledCS/3.3.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YoB5tE8FoBNp9zUKCZVnnr+qKJnO54v1ke8yyx4JoIGbI4AaIrqqJwFGL93j9J/r3Po9N2YYytoUvr/rswkurA==",
+      "path": "tiledcs/3.3.3",
+      "hashPath": "tiledcs.3.3.3.nupkg.sha512"
     }
   }
 }

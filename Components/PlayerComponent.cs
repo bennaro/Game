@@ -14,7 +14,10 @@ namespace Game
         private float positionPlayerX = 0;
         private float positionPlayerY = 0;
 
-        private const float speed = 25.0f;
+        private const float speed = 50.0f;
+        private const float diagonalSpeed = 25.0f;
+
+
         private float frameCounter = 0;
         private const float frameSpeed = 8.0f; // Frames per second
 
@@ -109,6 +112,30 @@ namespace Game
                     frameX = 0;
                 }
 
+                if (Raylib.IsKeyDown(KeyboardKey.Up) && Raylib.IsKeyDown(KeyboardKey.Right))
+                {
+
+                   positionPlayerY -= diagonalSpeed * Raylib.GetFrameTime();
+                   positionPlayerX += speed * Raylib.GetFrameTime();
+                }
+                else if (Raylib.IsKeyDown(KeyboardKey.Right) && Raylib.IsKeyDown(KeyboardKey.Down))
+                {
+
+                   positionPlayerX += speed * Raylib.GetFrameTime();
+                   positionPlayerY += diagonalSpeed * Raylib.GetFrameTime();
+                }
+                else if (Raylib.IsKeyDown(KeyboardKey.Down) && Raylib.IsKeyDown(KeyboardKey.Left))
+                {
+
+                   positionPlayerY += diagonalSpeed * Raylib.GetFrameTime();
+                   positionPlayerX -= speed * Raylib.GetFrameTime();
+                }
+                else if (Raylib.IsKeyDown(KeyboardKey.Left) && Raylib.IsKeyDown(KeyboardKey.Up))
+                {
+
+                   positionPlayerX -= speed * Raylib.GetFrameTime();
+                   positionPlayerY -= diagonalSpeed * Raylib.GetFrameTime();
+                }
 
                 if(isCollision)
                 {

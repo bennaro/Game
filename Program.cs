@@ -16,9 +16,9 @@ namespace Game
             Raylib.InitWindow(screenWidth, screenHeight, "Raylib C# Example");
 
             // Load player texture and map
-            string playerTexturePath = "C:/Users/Faisa/Documents/Game/Assets/link-sheet.png";
-            string mapPath = "C:/Users/Faisa/Documents/Game/Assets/world.tmx";
-            string assetsPath = "C:/Users/Faisa/Documents/Game/Assets/";
+            string playerTexturePath = "./Assets/sprites/link-sheet.png";
+            string mapPath = "./Assets/world.tmx";
+            string assetsPath = "./Assets/";
 
             PlayerComponent playerComponent = new PlayerComponent(playerTexturePath, 32, 32);
             TiledMap map = new TiledMap(mapPath);

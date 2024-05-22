@@ -372,3 +372,7 @@ obj/Debug/net8.0/Game.pdb
 obj/Debug/net8.0/Game.sourcelink.json
 obj/Debug/net8.0/ref/Game.dll
 obj/Debug/net8.0/refint/Game.dll
+obj/Debug/net8.0/Game.AssemblyInfo.cs
+obj/Debug/net8.0/Game.AssemblyInfoInputs.cache
+obj/Debug/net8.0/Game.assets.cache
+obj/Debug/net8.0/Game.GeneratedMSBuildEditorConfig.editorconfig

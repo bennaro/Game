@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/benjaminnaero/Developer/Game/Game.csproj": {}
+    "C:\\Users\\Faisa\\Documents\\Game\\Game.csproj": {}
   },
   "projects": {
-    "/Users/benjaminnaero/Developer/Game/Game.csproj": {
+    "C:\\Users\\Faisa\\Documents\\Game\\Game.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/benjaminnaero/Developer/Game/Game.csproj",
+        "projectUniqueName": "C:\\Users\\Faisa\\Documents\\Game\\Game.csproj",
         "projectName": "Game",
-        "projectPath": "/Users/benjaminnaero/Developer/Game/Game.csproj",
-        "packagesPath": "/Users/benjaminnaero/.nuget/packages/",
-        "outputPath": "/Users/benjaminnaero/Developer/Game/obj/",
+        "projectPath": "C:\\Users\\Faisa\\Documents\\Game\\Game.csproj",
+        "packagesPath": "C:\\Users\\Faisa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Faisa\\Documents\\Game\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/benjaminnaero/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Faisa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -68,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

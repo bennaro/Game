@@ -108,6 +108,11 @@ namespace Game
                 {
                     frameX = 0;
                 }
+                else if (Raylib.IsKeyDown(KeyboardKey.Left && KeyBoardKey.Up))
+                {
+                    positionPlayerX += speed * Raylib.GetFrameTime();
+                    positionPlayerY += speed * Raylib.GetFrameTime();
+                }
 
 
                 if(isCollision)
